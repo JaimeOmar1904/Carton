@@ -48,18 +48,35 @@
 
     </header>
 
+ 
     <main>
         <article>
             <h2>
-                Pruebas 
+                Pruebas
             </h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempus nulla vitae turpis scelerisque, ut accumsan diam vulputate. Suspendisse ultricies, ex ac tincidunt sollicitudin, sapien augue molestie tortor, id gravida erat libero vitae nunc. Aliquam ultrices, ligula fringilla aliquam fermentum, justo massa porta felis, varius eleifend sem nulla a nisl. Maecenas sodales, libero sit amet vestibulum gravida, felis urna iaculis lorem, nec elementum risus quam at metus. Aenean mattis vehicula dapibus. Donec interdum eget turpis suscipit sodales. Phasellus convallis fringilla ipsum quis posuere. Cras mi enim, efficitur nec egestas vel, hendrerit vel nunc. Integer id libero ultricies, iaculis nibh ac, consectetur est.
-
-Pellentesque viverra magna sed neque egestas, sit amet pulvinar dolor auctor. In vestibulum dolor ipsum, blandit ullamcorper tortor dapibus id. In hac habitasse platea dictumst. Aenean nulla ligula, posuere non ex in, auctor porta diam. Maecenas gravida nisi sed nulla sodales, et vehicula lacus cursus. Sed in augue sollicitudin, egestas mi non, eleifend sem. Donec ut posuere erat. Donec molestie pulvinar ligula aliquam consequat. Ut accumsan scelerisque justo nec semper. Quisque venenatis velit non auctor aliquam. Cras et sagittis risus, at mattis nisi. Sed tincidunt lacinia tincidunt. Integer nec lacus vitae nunc elementum tempor. Ut lobortis justo ut elit lobortis, vel imperdiet nulla auctor. Suspendisse vel magna nisl. Fusce eu libero vel nunc maximus sodales non et sem.
-            </p>
+            <p>...</p>
+            <div class="slider">
+              <ul>
+                <li><img src="img/muesta1.jpg" alt="1"></li>
+                <li><img src="img/muesta2.jpg" alt="2"></li>
+                <li><img src="img/muesta3.jpg" alt="3"></li>
+              </ul>
+            </div>
+            <form action="enviar.php" method="post">
+            <h2 id=Contactanos><font face="Comic Sans MS,Arial,Verdana">Contactanos</font></h2>
+              <input type="text" name="Nombre" placeholder="Nombre" required>
+              <input type="text" name="Apellido" placeholder="Apellido"required>
+              <input type="text" name="Email" placeholder="Email"required>
+              <input type="text" name="Telefono" placeholder="Telefono"required>
+              <input type="text" name="Empresa" placeholder="Empresa"required>
+              <textarea name="Mensaje" placeholder="Escriba aquí su mensaje"required></textarea>
+              <input type="submit" name="Enviar" value="Enviar" id="boton_Enviar">
+            </form>
         </article>
     </main>
+
+
+
 
     <footer>
         <div class="container-footer-all">
