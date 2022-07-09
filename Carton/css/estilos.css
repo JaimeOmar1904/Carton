@@ -200,7 +200,99 @@ article p{
     display: none;
 
 }
-
+/*Galeria de productos*/
+.slider{
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .slider ul{
+    display: flex;
+    padding: 0;
+    width: 300%;
+    /*Tiempo total de galeria*/
+    animation: cambio 20s infinite;
+    animation-direction: alternate;
+  }
+  
+  .slider li{
+    width: 100%;
+    list-style: none;
+  }
+  
+  .slider img{
+    width: 100%;
+  }
+  /*tiempo de cambio de imagenes*/
+  @keyframes cambio {
+    0% {margin-left: 0;}
+    25%{margin-left: 0;}
+  
+    37.5%{margin-left: -100%;}
+    62.5%{margin-left: -100%;}
+  
+    75%{margin-left: -200%;}
+    100%{margin-left: -200%;}
+  }
+  /*Formulario*/
+  form{
+    width: 450px;
+    margin: auto;
+    background: rgba(0,0,0,0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 8px;
+  }
+  
+  #Contactanos{
+    color: #000000;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 8px;
+    box-sizing: border-box;
+    font-size: 21px;
+    border:none;
+  }
+  
+  textarea{
+    min-height: 100px;
+    max-height: 200px;
+    min-width: 100%;
+    max-width: 100%;
+  }
+  
+  #boton_Enviar{
+    background: #023877;
+    color: white;
+    padding: 20px;
+    font-size: 18px;
+  }
+  
+  #boton_Enviar:hover{
+    cursor: pointer;
+  }
+  
+  @media (max-width:450px){
+    form{
+      width: 100%;
+    }
+  #Mensaje_Enviado{
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    background: rgba(0,0,0,0.4);
+  
+  }
+  }
 /*FOOTER*/
 
 footer{
