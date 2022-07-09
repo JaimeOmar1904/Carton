@@ -281,7 +281,7 @@ article p{
     cursor: pointer;
   }
   
-  @media (max-width:450px){
+  @media (width:450px){
     form{
       width: 100%;
     }
