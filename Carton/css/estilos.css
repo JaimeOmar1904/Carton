@@ -157,20 +157,20 @@ nav ul li ul li a:hover{
 }
 /*BODY*/
 main{
-    background: white;
+    background: #f0f0f0;
     padding: 40px 20px;
     margin-top: 194px;
 }
 article{
-    max-width: 1200px;
-    margin: 20px auto;
+    max-width: 1300px;
+    margin: 10px auto;
     padding: 40px;
     background: white;
 }
 
 article{
-    max-width: 1200px;
-    margin: 20px auto;
+    max-width: 1300px;
+    margin: 10px auto;
     padding: 40px;
 }
 article p{
@@ -211,7 +211,7 @@ article p{
     display: flex;
     padding: 0;
     width: 300%;
-    /*Tiempo total de galeria*/
+/*Tiempo total de galeria*/
     animation: cambio 20s infinite;
     animation-direction: alternate;
   }
@@ -387,6 +387,20 @@ form{
     cursor: pointer;
   }
 
+  /* Cajas de contactos*/
+
+  .hijo{
+    *background: blue;
+    width: 40%;
+  }
+/*Imagen de contacto*/
+    .invisible{
+        width: 100%;
+
+    }
+
+  
+
 
 @media screen and (max-width: 720px){
     .header__superior{
@@ -465,10 +479,14 @@ form{
       font-size: 40px;
       background: rgba(0,0,0,0.4);
     }
-    /*img contactos*/
-    .contactos_img{
-        width: 100%;
-        height: 100%;
+    /* Cajas de contactos*/
+    .hijo{
+    *background: blue;
+    width: 100%;
+    }
+    /*Imagen de contacto*/
+    .invisible{
+        display: none;
     }
 
 }
