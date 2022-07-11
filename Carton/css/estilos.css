@@ -387,16 +387,24 @@ form{
     cursor: pointer;
   }
 
-  /* Cajas de contactos*/
-
-  .hijo{
-    *background: blue;
+/* Cajas de contactos*/ 
+  .caja_llamanos{
     width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+
+  }
+  .caja_contactanos{
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    
   }
 /*Imagen de contacto*/
     .invisible{
         width: 100%;
-
     }
 
   
@@ -480,13 +488,19 @@ form{
       background: rgba(0,0,0,0.4);
     }
     /* Cajas de contactos*/
-    .hijo{
-    *background: blue;
-    width: 100%;
-    }
+    .caja_llamanos{
+        width: 100%;
+        font-size: 12px;
+      }
+    .caja_contactanos{
+        width: 100%;
+        font-size: 12px;
+        
+      }
     /*Imagen de contacto*/
     .invisible{
         display: none;
     }
+    
 
 }
