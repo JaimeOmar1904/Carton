@@ -242,6 +242,10 @@ article p{
     margin-top: 20px;
     margin: auto;
 }
+#mapa{
+    align-items: center;
+    margin: auto;
+}
 /*FOOTER*/
 
 footer{
