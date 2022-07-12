@@ -9,5 +9,5 @@ $mensaje=$_Post["Mensaje"];
 $contenido= "Nombre: " .$nombre .$apellido."\nCorreo:" . $correo ."\nTelefono: " . $telefono . "\nMensaje: " . $mensaje;
 
 mail($destino,"Contacto",$contenido);
-header("Location: gracias.html");
+header(Location:"../Carton/gracias.html" ");
  ?>

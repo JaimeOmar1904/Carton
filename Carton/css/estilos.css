@@ -237,14 +237,15 @@ article p{
   }
   
 /*Ubicación*/
-#mapa_titulo{
+#mapa{
     text-align: center;
     margin-top: 20px;
     margin: auto;
+    width: 70%;
+    height: auto;
 }
-#mapa{
-    margin: auto;
-}
+
+
 /*FOOTER*/
 
 footer{
