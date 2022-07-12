@@ -239,10 +239,12 @@ article p{
 /*Ubicación*/
 #mapa{
     text-align: center;
-    margin-top: 20px;
     margin: auto;
     width: 70%;
     height: auto;
+}
+.google_map{
+    width: 70%;
 }
 
 
