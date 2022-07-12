@@ -236,6 +236,10 @@ article p{
     100%{margin-left: -200%;}
   }
   
+/*Ubicación*/
+#mapa_titulo{
+    text-align: center;
+}
 /*FOOTER*/
 
 footer{
