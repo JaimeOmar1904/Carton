@@ -239,6 +239,8 @@ article p{
 /*Ubicación*/
 #mapa_titulo{
     text-align: center;
+    margin-top: 20px;
+    margin: auto;
 }
 /*FOOTER*/
 
