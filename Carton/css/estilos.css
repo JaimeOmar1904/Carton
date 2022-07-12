@@ -240,11 +240,11 @@ article p{
 #mapa{
     text-align: center;
     margin: auto;
-    width: 70%;
+    width: 80%;
     height: auto;
 }
 .google_map{
-    width: 70%;
+    width: 100%;
 }
 
 
