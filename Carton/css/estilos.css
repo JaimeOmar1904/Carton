@@ -242,6 +242,7 @@ article p{
     margin: auto;
     width: 80%;
     height: auto;
+    font-size: 5vw;
 }
 .google_map{
     width: 100%;
