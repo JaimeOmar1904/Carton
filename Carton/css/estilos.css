@@ -398,27 +398,43 @@ form{
   
   #boton_Enviar:hover{
     cursor: pointer;
+    *display: inline-block;
   }
 
 /* Cajas de contactos*/ 
   .caja_llamanos{
     width: 40%;
-    margin: 0 auto;
+    *margin: 0 auto;
     text-align: center;
     margin-top: 100px;
+    display: inline-block;
 
   }
   .caja_contactanos{
     width: 40%;
-    margin: 0 auto;
+    *margin: 0 auto;
     text-align: center;
     margin-top: 50px;
+    display: inline-block;
     
   }
 /*Imagen de contacto*/
     .invisible{
         width: 100%;
     }
+.caja_contacto{
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+/*Escrito de contacto*/
+ .texto_informativo_1{
+    font-size: 40px;
+ }
+ .texto_informativo_2{
+    font-size: 25px;
+ }
 
   
 
@@ -513,6 +529,12 @@ form{
     /*Imagen de contacto*/
     .invisible{
         display: none;
+    }
+
+    .caja_contacto{
+        margin-top: 0px;
+        margin-bottom: 70px;
+    
     }
     
 
