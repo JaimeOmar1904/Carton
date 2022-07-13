@@ -157,7 +157,7 @@ nav ul li ul li a:hover{
 }
 /*BODY*/
 main{
-    background: #f0f0f0;
+    background: white;
     padding: 40px 20px;
     margin-top: 194px;
 }
@@ -423,7 +423,7 @@ form{
         width: 100%;
     }
 .caja_contacto{
-    width: 80%;
+    width: 90%;
     margin-top: 50px;
     margin-bottom: 50px;
 
