@@ -40,24 +40,14 @@
 
 @media screen and (max-width: 720px){
     .caja_principal{
-        background-color: #f0f0f0f0;
         width: 100%;
-        margin: 0 auto;
-        border-radius: 20px;
-    }
-    .bloque_1{
-        margin-right: 20px;
-        margin-left: 10px;
     }
     .bloque_2{
-        font-size: 13px;
+        font-size: 12px;
     }
     .caja_secundaria_2{
         width: 70%;
-        font-size: 20px;
-        margin-top: 20px;
-        margin-bottom: 10px;
-        margin-left: 70px;
+        font-size: 13px;
     }
 
 }
