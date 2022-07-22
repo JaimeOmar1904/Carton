@@ -1,0 +1,30 @@
+/*Texto tamaño*/
+.LetraGrande{
+    font-size: 20px;
+}
+
+.color{
+    width: 100%;
+}
+
+.caja1_productos{
+    background-color: blue;
+}
+.caja1_producto_img{
+    display: inline-block;
+    width: 30%;
+    height: 100px;
+}
+.caja2_productos{
+    background-color: blue;
+    width: 30%;
+    height: 230px;
+    text-align: left;
+    display: inline-block;
+}
+.caja3_productos{
+    *background-color: blue;
+    width: 20%;
+    height: 100px;
+    display: inline-block;
+}
