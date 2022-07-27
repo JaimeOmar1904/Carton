@@ -8,6 +8,8 @@
     <script src="https://kit.fontawesome.com/5d46237b43.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/productos.css">
+    <link rel="stylesheet" href="css/whatsapp.css">
+    <link rel="stylesheet" href="css/ubicacion.css">
 </head>
 <body>
     <header>
@@ -28,15 +30,7 @@
                 <nav>
                     <ul>
                         <li><a href="../Carton/principal.html" ></a></li>
-                        <li><a href="../Carton/productos.html" id="selected">Productos</a>
-                        <ul>
-                            <li><a href="#">Falta</a></li>
-                            <li><a href="#">Falta</a></li>
-                            <li><a href="#">Falta</a></li>
-                            <li><a href="#">Falta</a></li>
-                            <li><a href="#">Falta</a></li>
-                        </ul>
-                        </li>
+                        <li><a href="../Carton/productos.html" id="selected">Productos</a></li>
                         <li><a href="#">Nosotros</a></li>
                         <li><a href="#">Cotizar Mayoreo</a></li>
                         <li><a href="../Carton/ubicacion.html">Ubicación</a></li>
@@ -50,64 +44,90 @@
     </header>
 
     <main>
-        <article>
-            <div class="caja1_productos">
-                <p>
-                    Nos especializamos en:
-                </p>
+            <div>
+                <img src="../Carton/img/img_productos/productos_carton.jpg" class="invisible tamaño">
             </div>
-            <p>
+
+            <div class="contenedor_titulo_productos">
+                <h1>
+                    Nos especializamos en:
+                </h1>
+            </div>
+            <p class="texto_formato1">
                 Cajas y láminas de cartón en distintas medidas y diferentes resistencias elaborados en papel kraft y blancos:
             </p>
             <center>
-            <div class="caja1_producto_img">
-                <img src="../Carton/img/img_productos/carton.jpg" class="color" >
+            <div class="contenedor_img1_productos">
+                <img src="../Carton/img/img_productos/carton1.jpg" class="color" >
             </div>
 
-            <div class="caja2_productos LetraGrande">
-                <P>
+            <div class="contenedor1_productos">
+                <h1>
+                    <li type="disc"> Cartón corrugado </li>
                     <br>
-                    -	Cartón corrugado
+                    <li type="disc"> Cartón sencillo </li>
                     <br>
+                    <li type="disc"> Cartón doble </li>
                     <br>
-                    -	Cartón sencillo
+                    <li type="disc"> Cartón microcorrugado </li>
                     <br>
-                    <br>
-                    -	Cartón doble
-                    <br>
-                    <br>
-                    -	Cartón microcorrugado
-                    <br>
-                    <br>
-                </P>
+                </h1>
             </div>
-            <p>
-                <hr>
-            </p>
-            <div class="caja3_productos">
-                    -	Lámina corrugada
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="contenedor2_productos">
+                <h1>
+                    <li type="disc">Lámina corrugada </li>
                     <br>
-                    -	Laminas sencilla
+                    <li type="disc"> Laminas sencilla </li>
                     <br>
-                    -	Lamina doble
+                    <li type="dics"> Lamina doble </li>
                     <br>
-                    -	Lamina microcorrugada
+                    <li type="dics"> Lamina microcorrugada </li>
+                    <br>
+                </h1>
             </div>
-            <img src="../Carton/img/img_productos/carton.jpg" width="30%">
-            <p>
+            <div class="contenedor_img2_productos">
+                <img src="../Carton/img/img_productos/lamina_microcorrugada1.jpg" class="color">
+            </div>
+            <br>
+            <br>
+            <br>
+            <hr>
+        </center>
+            <p class="texto_formato2">
                 Contamos con papel kraft y semi kraft en rollo y distintitas medidas con diferentes gramajes:
             </p>
-            <p>
+            <p class="texto_formato3">
                 -	Papel kraft en rollo de 60 gr, 90 gr y 125 gr.
+                <br>
                 <br>
                 -	Semi kraft de 60 gr, 90 gr y 125 gr.
             </p>
-            <p>
+            <p class="texto_formato4">
                 Hojas de papel kraft sobre medida de 60 gr, 90 gr y 125 gr.
             </p>
-        </center>
-        </article>
+
+            <div class="contenedor3_productos">
+                Acércate con los profesionales y obtén atención personalizada, fabricamos cajas de cartón de excelente calidad.
+                <br>
+                <br>
+                LLÁMANOS
+            </div>
+
+            <div id="mapa2">
+                <p>&nbsp;</p>
+                <iframe class="google_map2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3765.1359750170636!2d-99.06392118509173!3d19.319905049281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce0260bb4c34bd%3A0x434dbd8a8932daad!2sPalmillas%202-lote%204%2C%20Lomas%20de%20San%20Lorenzo%2C%20Iztapalapa%2C%2009780%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses!2smx!4v1657587506035!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
     </main>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <a href="https://api.whatsapp.com/send?phone=525546850049&text=Quiero%20m%C3%A1s%20informacion" class="float" target="_blank">
+    <i class="fa fa-whatsapp my-float"></i>
+    </a>
 
     <footer>
         <div class="container-footer-all">
@@ -115,7 +135,12 @@
             <div class="container-body">
                 <div class="column1">
                     <h1>Más información de la compañia</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sem nisi, vulputate aliquet sapien a, imperdiet gravida enim. Nulla at augue ultrices, elementum urna ut, ullamcorper erat. Sed eget tristique mauris. Cras vitae odio eget leo eleifend pharetra. Sed accumsan lacus in luctus finibus. Quisque lacinia ut turpis ut tincidunt. Donec ultricies convallis pharetra. Phasellus elementum vehicula arcu, quis consectetur sem porta et. Quisque augue elit, fermentum eget sollicitudin et, vehicula at est. Integer tempus, diam hendrerit iaculis malesuada, tortor ipsum suscipit est, eu dictum enim neque vitae erat. Nulla ut felis non turpis sollicitudin pharetra sodales vitae nunc.</p>
+                    <p>Somos una empresa líder en todo el empaque en cajas y bolsas comercialización, distribución y elaboración de cajas de empaque para la industria, con la convicción de garantizar productos de calidad con apego a los requerimientos  y necesidades de nuestros clientes. 
+                        <br>
+                        <br>
+                        Asegurando la competencia en todos los niveles de la organización 
+                        Manteniendo una comunicación entre todas las partes interesadas, evaluando el cumplimiento  del Sistema de Gestión mediante objetivos que se establecen y revisan periódicamente alineados con el programa de mejora continua.
+                        </p>
                 </div>
                 <div class="column2">
                     <h1>Redes Sociales</h1>

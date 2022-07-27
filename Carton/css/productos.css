@@ -1,30 +1,132 @@
-/*Texto tamaño*/
-.LetraGrande{
-    font-size: 20px;
-}
 
 .color{
     width: 100%;
 }
 
-.caja1_productos{
-    background-color: blue;
+.contenedor_titulo_productos{
+    background-color: #065F86;
+    text-align: center;
+    color: white;
+    height: 80px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 15px;
+    margin-bottom: 30px;
 }
-.caja1_producto_img{
+.contenedor_img1_productos{
+    margin-top: 70px;
     display: inline-block;
-    width: 30%;
+    width: 25%;
     height: 100px;
+    margin-right: 100px;
+    
 }
-.caja2_productos{
-    background-color: blue;
-    width: 30%;
-    height: 230px;
+.contenedor1_productos{
+    width: 35%;
+    height: auto;
     text-align: left;
     display: inline-block;
+    font-size: 12px;
 }
-.caja3_productos{
-    *background-color: blue;
-    width: 20%;
-    height: 100px;
+.contenedor2_productos{
+    width: 30%;
+    height: auto;
+    text-align: left;
     display: inline-block;
+    font-size: 12px;
+    margin-right: 10px;
+}
+.contenedor_img2_productos{
+    width: 30%;
+    height: 90px;
+    display: inline-block;
+}
+.contenedor3_productos{
+    background-color: #065F86;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+}
+
+/*Texto*/
+.texto_formato1{
+    font-size: 25px;
+    margin-left: 20px;
+}
+.texto_formato2{
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.texto_formato3{
+    font-size: 25px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+.texto_formato4{
+    font-size: 25px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+
+}
+
+#mapa2{
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    font-size: 5vw;
+}
+.google_map2{
+    width: 99%;
+}
+
+@media screen and (max-width: 720px){
+
+    .contenedor_titulo_productos{
+        background-color: #065F86;
+        text-align: center;
+        color: white;
+        height: 60px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-size: 12px;
+    }
+    .contenedor_img1_productos{
+        display: inline-block;
+        width: 30%;
+        height: 100px;
+        margin-right: 100px;
+        
+    }
+    .contenedor1_productos{
+        width: 100%;
+        height: auto;
+        text-align: left;
+        display: inline-block;
+        font-size: 12px;
+    }
+    .contenedor2_productos{
+        width: 100%;
+        height: auto;
+        text-align: left;
+        font-size: 12px;
+        margin-right: 100px;
+    }
+    .contenedor_img2_productos{
+        background-color: yellow;
+        width: 80%;
+        height: auto;
+        display: inline-block;
+    }
 }
