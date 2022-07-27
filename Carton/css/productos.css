@@ -106,27 +106,50 @@
         display: inline-block;
         width: 30%;
         height: 100px;
-        margin-right: 100px;
+        margin-right: 0px;
         
     }
     .contenedor1_productos{
-        width: 100%;
+        background-color: blue;
+        width: 99%;
         height: auto;
         text-align: left;
         display: inline-block;
-        font-size: 12px;
+        font-size: 9px;
     }
     .contenedor2_productos{
-        width: 100%;
+        background-color: blue;
+        width: 99%;
         height: auto;
         text-align: left;
-        font-size: 12px;
-        margin-right: 100px;
+        font-size: 9px;
+        margin-right: 0px;
     }
     .contenedor_img2_productos{
-        background-color: yellow;
-        width: 80%;
+        width: 40%;
         height: auto;
         display: inline-block;
+    }
+
+    .texto_formato1{
+        font-size: 15px;
+        margin-left: 20px;
+    }
+    .texto_formato2{
+        font-size: 15px;
+        margin-left: 20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .texto_formato3{
+        font-size: 15px;
+        margin-left: 50px;
+        margin-bottom: 30px;
+    }
+    .texto_formato4{
+        font-size: 15px;
+        margin-left: 20px;
+        margin-bottom: 30px;
+    
     }
 }
