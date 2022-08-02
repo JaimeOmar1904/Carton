@@ -518,8 +518,14 @@ form{
     .invisible{
         display: none;
     }
+    /*Contenedor*/
+    #Contenedor{
+        width: 80%;
+        height: 100%;
+
+    }
     /*imagen Home*/
-    #Home{
+    #imgHome{
         width: 70%;
         height: auto;
         align-items: center;
@@ -530,8 +536,9 @@ form{
      width: 100vw;
      height: 25wv;
      background-color: #023877;
-     font-size: 12.5vw;
+     font-size: 25vw;
      text-align: center;
+
     }
     /*Mision*/
     #Mision{
