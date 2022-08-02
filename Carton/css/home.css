@@ -2,7 +2,6 @@
     .contenedor_home1{
         width: 100%;
     }
-    
     /*imagen Home*/
     #imgHome{
         width: 100%;
@@ -17,6 +16,11 @@
         align-items: center;
         color: white;
       }
+    /*Quienes somos*/
+    #Quien{
+      width: 100%;
+      height: auto;
+    }
     /*Mision*/
     #Mision{
         width: 100%;
