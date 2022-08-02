@@ -527,7 +527,7 @@ form{
       }
     /*Letrero Home*/
     .letHome{
-     width: 70vw;
+     width: 100vw;
      height: 25wv;
      background-color: #023877;
      font-size: 12.5vw;
@@ -535,14 +535,14 @@ form{
     }
     /*Mision*/
     #Mision{
-        width: 100%;
+        width: 1100wv;
         height: auto;
         align-items: center;
         object-position: center;
       }
     /*Vision*/
     #Mision{
-        width: 100%;
+        width: 100vw;
         height: auto;
         align-items: center;
         object-position: center;
