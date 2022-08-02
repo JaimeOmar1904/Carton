@@ -527,12 +527,11 @@ form{
       }
     /*Letrero Home*/
     .letHome{
-     width: 100%;
-     height: 10wv;
+     width: 70vw;
+     height: 25wv;
      background-color: #023877;
-     font-size: 5vw;
+     font-size: 12.5vw;
      text-align: center;
-     text-decoration-color: white;
     }
     /*Mision*/
     #Mision{
