@@ -522,6 +522,8 @@ form{
     #Contenedor{
         width: 80%;
         height: 100%;
+        margin: 1rem;
+        padding: 1rem;
         align-items: center;
 
     }
