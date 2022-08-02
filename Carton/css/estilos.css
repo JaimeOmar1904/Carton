@@ -518,11 +518,35 @@ form{
     .invisible{
         display: none;
     }
+    /*imagen Home*/
+    #Home{
+        width: 100%;
+        height: auto;
+        align-items: center;
+        object-position: center;
+      }
+    /*Letrero Home*/
+    .letHome{
+     width: 100%;
+     height: 10wv;
+     background-color: #023877;
+     font-size: 5vw;
+     text-align: center;
+     text-decoration-color: white;
+    }
     /*Mision*/
     #Mision{
         width: 100%;
         height: auto;
         align-items: center;
+        object-position: center;
+      }
+    /*Vision*/
+    #Mision{
+        width: 100%;
+        height: auto;
+        align-items: center;
+        object-position: center;
       }
     .caja_contacto{
         width: 100%;
