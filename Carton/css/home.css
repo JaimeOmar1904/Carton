@@ -2,6 +2,16 @@
     .contenedor_home1{
         width: 100%;
     }
+    .contenedor_home2{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: justify;
+      width: 90%;
+      height: 350px;
+      margin: auto;
+      font-size: 25px;
+  }
     /*imagen Home*/
     #imgHome{
         width: 100%;
@@ -48,13 +58,26 @@
         align-items: center;
         color: white;
         font-size: 12px;
+        margin-bottom: 20px;
       }
+      .contenedor_home2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: justify;
+        width: 90%;
+        height: auto;
+        margin: auto;
+        font-size: 13px;
+    }
     /*Mision*/
     #Mision{
         width: 100%;
         height: auto;
         align-items: center;
         object-position: center;
+        margin-top: 20px;
+        margin-bottom: 0px;
       }
     /*Vision*/
     #Mision{
