@@ -518,42 +518,6 @@ form{
     .invisible{
         display: none;
     }
-    /*Contenedor*/
-    #Contenedor{
-        width: 80%;
-        height: 100%;
-        align-items: center;
-
-    }
-    /*imagen Home*/
-    #imgHome{
-        width: 70%;
-        height: auto;
-        align-items: center;
-        object-position: center;
-      }
-    /*Letrero Home*/
-    .padre {
-        background: #023877;
-        height: 150px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-    /*Mision*/
-    #Mision{
-        width: 100%;
-        height: auto;
-        align-items: center;
-        object-position: center;
-      }
-    /*Vision*/
-    #Mision{
-        width: 100%;
-        height: auto;
-        align-items: center;
-        object-position: center;
-      }
     .caja_contacto{
         width: 100%;
         margin-top: 0px;

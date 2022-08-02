@@ -1,0 +1,63 @@
+    /*Contenedor de Home*/
+    .contenedor_home1{
+        width: 100%;
+    }
+    
+    /*imagen Home*/
+    #imgHome{
+        width: 100%;
+        height: auto;
+      }
+    /*Letrero Home*/
+    .padre {
+        background: #023877;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+      }
+    /*Mision*/
+    #Mision{
+        width: 100%;
+        height: auto;
+      }
+    /*Vision*/
+    #Vision{
+        width: 100%;
+        height: auto;
+    }
+
+@media screen and (max-width: 720px){
+
+    /*imagen Home*/
+    #imgHome{
+        width: 100%;
+        height: auto;
+      }
+    /*Letrero Home*/
+    .padre {
+        background: #023877;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 12px;
+      }
+    /*Mision*/
+    #Mision{
+        width: 100%;
+        height: auto;
+        align-items: center;
+        object-position: center;
+      }
+    /*Vision*/
+    #Mision{
+        width: 100%;
+        height: auto;
+        align-items: center;
+        object-position: center;
+    }
+    
+}
