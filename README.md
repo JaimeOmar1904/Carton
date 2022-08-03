@@ -1,2 +1,0 @@
-# Carton
-Empresa de Carton
