@@ -159,7 +159,7 @@ nav ul li ul li a:hover{
 main{
     background: white;
     padding: 30px 0px;
-    margin-top: 146px;
+    margin-top: 140px;
 }
 article{
     max-width: 1300px;
@@ -199,23 +199,7 @@ article p{
 #check__menu{
     display: none;
 
-}
-/*Galeria de productos*/
-.slider{
-    width: 95%;
-    margin: auto;
-    overflow: hidden;
-  }
-  
-  .slider ul{
-    display: flex;
-    padding: 0;
-    width: 300%;
-/*Tiempo total de galeria*/
-    animation: cambio 20s infinite;
-    animation-direction: alternate;
-  }
-  
+}  
   .slider li{
     width: 100%;
     list-style: none;
@@ -224,18 +208,6 @@ article p{
   .slider img{
     width: 100%;
   }
-  /*tiempo de cambio de imagenes*/
-  @keyframes cambio {
-    0% {margin-left: 0;}
-    25%{margin-left: 0;}
-  
-    37.5%{margin-left: -100%;}
-    62.5%{margin-left: -100%;}
-  
-    75%{margin-left: -200%;}
-    100%{margin-left: -200%;}
-  }
-  
 
 /*FOOTER*/
 
@@ -533,7 +505,7 @@ form{
      main{
         background: white;
         padding: 30px 0px;
-        margin-top: 110px;
+        margin-top: 100px;
     }
     
 }
